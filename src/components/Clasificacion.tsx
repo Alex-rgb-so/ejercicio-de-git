@@ -16,7 +16,7 @@ export default function BasicRating() {
       <Rating
         name="simple-controlled"
         value={value}
-        onChange={(event, newValue) => {
+        onChange={(_, newValue) => {
           setValue(newValue);
         }}
       />
